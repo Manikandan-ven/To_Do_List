@@ -235,4 +235,6 @@ document.getElementById("taskList").appendChild(li);
 window.onload=loadTasks;
 ~~~
 ## OUTPUT
-![alt text](<Screenshot 2026-03-10 121548.png>) ## RESULT The program for creating To-do list using JavaScript is executed successfully.
+![alt text](<Screenshot 2026-03-10 121548.png>) 
+
+## RESULT The program for creating To-do list using JavaScript is executed successfully.
