@@ -1,0 +1,82 @@
+/* Vintage Green Notebook Theme */
+
+body{
+font-family:'Georgia',serif;
+background:#3e5c4b;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+margin:0;
+}
+
+.notebook{
+background:#e6dbc5;
+padding:40px 30px;
+width:420px;
+border-radius:10px;
+border:2px solid #6b8e73;
+box-shadow:5px 5px 20px rgba(0,0,0,0.4);
+}
+
+h1{
+text-align:center;
+color:#2f4f4f;
+margin-bottom:25px;
+}
+
+.input-section{
+display:flex;
+gap:10px;
+margin-bottom:20px;
+}
+
+input{
+flex:1;
+padding:10px;
+border:2px solid #6b8e73;
+border-radius:6px;
+background:#f9f6ef;
+font-size:15px;
+}
+
+button{
+background:#6b8e73;
+color:white;
+border:none;
+padding:10px 15px;
+border-radius:6px;
+cursor:pointer;
+font-weight:bold;
+}
+
+button:hover{
+background:#557a63;
+}
+
+ul{
+list-style:none;
+padding:0;
+}
+
+li{
+display:flex;
+justify-content:space-between;
+padding:12px;
+margin-bottom:10px;
+background:#f1e7d3;
+border-left:5px solid #6b8e73;
+}
+
+.completed{
+text-decoration:line-through;
+color:#777;
+}
+
+li button{
+background:none;
+border:none;
+color:#cc3333;
+font-weight:bold;
+cursor:pointer;
+}
